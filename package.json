@@ -1,0 +1,27 @@
+{
+  "name": "wsc",
+  "version": "1.0.0",
+  "module": "dist/index.js",
+  "main": "dist/bin/index.js",
+  "types": "dist/lib/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc && tsc -p tsconfig.lib.json --emitDeclarationOnly",
+    "dev": "tsc --watch",
+    "webpack": "webpack --watch"
+  },
+  "repository": "https://github.com/jasakode/wsc.git",
+  "author": "antoniussinaga-dev <antoniussinaga.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "nodemon": "^3.0.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@types/uuid": "^9.0.7",
+    "uuid": "^9.0.1"
+  }
+}
