@@ -1,6 +1,8 @@
 /node_modules
 /src
 /public
+/example
+/test
 .gitignore
 tsconfig.lib.json
 tsconfig.json
