@@ -9,7 +9,10 @@
     "dev": "tsc --watch",
     "webpack": "webpack --watch"
   },
-  "repository": "https://github.com/jasakode/wsc.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasakode/wsc.git"
+  },
   "author": "antoniussinaga-dev <antoniussinaga.dev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -23,5 +26,15 @@
   "dependencies": {
     "@types/uuid": "^9.0.7",
     "uuid": "^9.0.1"
-  }
+  },
+  "description": "wesocket client easy to use,",
+  "bugs": {
+    "url": "https://github.com/jasakode/wsc/issues"
+  },
+  "homepage": "https://github.com/jasakode/wsc#readme",
+  "keywords": [
+    "websocket",
+    "controller",
+    "tools"
+  ]
 }
