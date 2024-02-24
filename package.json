@@ -1,5 +1,5 @@
 {
-  "name": "wsc",
+  "name": "@jasakode/wsc",
   "version": "1.0.0",
   "module": "dist/index.js",
   "main": "dist/bin/index.js",
