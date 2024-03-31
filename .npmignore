@@ -1,10 +1,9 @@
 /node_modules
 /src
 /public
-/example
-/test
+/src/test
 .gitignore
 tsconfig.lib.json
-tsconfig.json
 webpack.config.js
 yarn.lock
+nodemon.json
